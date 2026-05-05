@@ -1,0 +1,28 @@
+{
+	"name": "@fatal-cinema/common",
+	"version": "1.0.0",
+	"description": "Core shared components for FatalCinema microservice ecosystem",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc -p tsconfig.build.json",
+		"format": "prettier --write \"lib/**/*.ts\""
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"author": {
+		"name": "fatal-zxc",
+		"email": "faaatal_l@proton.me"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"@fatal-cinema/core": "^1.0.6",
+		"@types/node": "^25.6.0",
+		"prettier": "^3.8.3",
+		"typescript": "^6.0.3"
+	}
+}
