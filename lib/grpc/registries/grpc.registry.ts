@@ -8,22 +8,22 @@ import type { GrpcRegistryClient } from '../interfaces'
 import type { GrpcPackageKey } from '../types'
 
 export const GRPC_CLIENTS: Record<GrpcPackageKey, GrpcRegistryClient> = {
-	AUTH_PACKAGE: {
+	AUTH_V1_PACKAGE_NAME: {
 		package: AUTH_V1_PACKAGE_NAME,
 		protoPath: PROTO_PATHS.AUTH,
 		env: 'AUTH_GRPC_URL',
 	},
-	ACCOUNT_PACKAGE: {
+	ACCOUNT_V1_PACKAGE_NAME: {
 		package: ACCOUNT_V1_PACKAGE_NAME,
 		protoPath: PROTO_PATHS.ACCOUNT,
 		env: 'ACCOUNT_GRPC_URL',
 	},
-	TELEGRAM_PACKAGE: {
+	TELEGRAM_V1_PACKAGE_NAME: {
 		package: TELEGRAM_V1_PACKAGE_NAME,
 		protoPath: PROTO_PATHS.TELEGRAM,
 		env: 'TELEGRAM_GRPC_URL',
 	},
-	USERS_PACKAGE: {
+	USERS_V1_PACKAGE_NAME: {
 		package: USERS_V1_PACKAGE_NAME,
 		protoPath: PROTO_PATHS.USERS,
 		env: 'USERS_GRPC_URL',
