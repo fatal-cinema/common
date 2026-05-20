@@ -1,2 +1,2 @@
 export * from './grpc-client.constant'
-export * from './grpc-packages-list.constant'
+export * from './grpc-clients-list.constant'
