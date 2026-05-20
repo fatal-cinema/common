@@ -1,6 +1,6 @@
 {
 	"name": "@fatal-cinema/common",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "Core shared components for FatalCinema microservice ecosystem",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
