@@ -8,12 +8,12 @@ import type { GrpcRegistryClient } from '../interfaces'
 import type { GrpcPackageKey } from '../types'
 
 export const GRPC_CLIENTS: Record<GrpcPackageKey, GrpcRegistryClient> = {
-	ACCOUNT_CLIENT: {
+	AUTH_CLIENT: {
 		package: AUTH_V1_PACKAGE_NAME,
 		protoPath: PROTO_PATHS.AUTH,
 		env: 'AUTH_GRPC_URL',
 	},
-	AUTH_CLIENT: {
+	ACCOUNT_CLIENT: {
 		package: ACCOUNT_V1_PACKAGE_NAME,
 		protoPath: PROTO_PATHS.ACCOUNT,
 		env: 'ACCOUNT_GRPC_URL',
